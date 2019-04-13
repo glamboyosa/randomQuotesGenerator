@@ -60,6 +60,9 @@ h2:after{
 @media screen and (max-width: 768px){
 	body{
 		background-repeat: no-repeat;
+		background-size: cover;
+    background-position: center;
+	background-attachment: fixed;
 	}
 	h2{
 		font-size: 150%;
