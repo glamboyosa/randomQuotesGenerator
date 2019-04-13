@@ -1,0 +1,16 @@
+{
+  "name": "build",
+  "version": "1.0.0",
+  "description": "A random quotes generator with JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://glamboyosa.github.io/randomQuotesGenerator",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}

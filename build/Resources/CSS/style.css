@@ -1,0 +1,71 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	text-rendering: optimizeLegibility;
+	font-family: georgia,helvetica,arial, courier;
+	font-weight: 100;
+}
+body{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.46),rgba(0, 0, 0, 0.46)), url(Image/eugen.jpg);
+	 background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+}
+h2{
+	margin-top: 30px;
+	font-size: 200%;
+	color: #fff;
+	text-align: center;
+	transition: color 1s;
+}
+h2:hover{
+	color:#FF0017;
+}
+h2:after{
+	 display: block;
+    height: 2px;
+    background-color: #F90536;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top:30px;
+}
+#button{
+	position: absolute;
+	top:30%;
+	left:42%;
+	padding: 10px 30px;
+	font-size: 100%;
+	text-align: center;
+	background-color: #206ADE;
+	border: 1px solid #206ADE;
+	border-radius: 50px;
+	color: #fff;
+	transition: background-color 1s, color 1s;
+}
+#button:hover{
+	background-color: #1B84E3;
+	color:#FF0017
+}
+#generatedQuotes{
+	text-align: center;
+	font-size: 180%;
+	margin-top: 15px;
+}
+@media screen and (max-width: 768px){
+	h2{
+		font-size: 150%;
+		text-align: center;
+	}
+	#generatedQuotes{
+		text-align: center;
+		font-size: 100%;
+		width: 100%;
+	}
+
+}
+
